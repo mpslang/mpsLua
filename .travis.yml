@@ -1,0 +1,12 @@
+language: java
+os: osx
+
+before_install:
+  - brew update
+  - brew tap caskroom/cask
+  - brew cask install mps
+  - brew install ant
+  - git clone https://fxlex:$BITBUCKETPASS@bitbucket.org/fxlex/mpslangcore.git
+  - mv mpslangcore/* .
+
+script: ant assemble

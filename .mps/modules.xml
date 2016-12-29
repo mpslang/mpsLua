@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com/github/mpslang/lua/com.github.mpslang.lua.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com/github/mpslang/lua/runtime/com.github.mpslang.lua.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com/github/mpslang/lua/sandbox/com.github.mpslang.lua.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.github.mpslang.lua.build/com.github.mpslang.lua.build.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
