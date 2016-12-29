@@ -8,5 +8,6 @@ before_install:
   - brew install ant
   - git clone https://fxlex:$BITBUCKETPASS@bitbucket.org/fxlex/mpslangcore.git
   - mv mpslangcore/* .
+  - mkdir -p /Users/travis/build/mpslang/mpsLangCore/build/artifacts/mpsLangCore && wget -O /Users/travis/build/mpslang/mpsLangCore/build/artifacts/mpsLangCore/mpsLangCore.zip 'https://bintray.com/mpslang/mpsLangCore/download_file?file_path=mpsLangCore.zip'
 
 script: ant assemble
